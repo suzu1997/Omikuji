@@ -1,0 +1,93 @@
+body {
+  width: 1247px;
+  height: 500px;
+  background-image: url(jingu.jpg);
+  background-size: cover;
+  background-position: 0 -80px;
+}
+header {
+  position: relative;
+}
+.text-container {
+  display: flex;
+  display: block;
+  width: 1247px;
+  margin:0 auto;
+
+}
+.reset-btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: rgb(43, 14, 66);
+  border: solid 2px rgb(43, 14, 66);
+  border-radius: 3px;
+  transition: .6s;
+  position: absolute;
+  top:15px;
+  left: 1100px;
+}
+.reset-btn:hover {
+  background:  rgb(43, 14, 66);
+  color: white;
+}
+
+h1 {
+  color: rgb(43, 14, 66);
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+p {
+  color: rgb(43, 14, 66);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  user-select: none;
+}
+.btn-wrapper {
+  display: flex;
+}
+.btn {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 140px auto;
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 42px;
+  cursor: pointer;
+  user-select: none;
+}
+#btn1 {
+  background:  #FF66CC;
+  box-shadow: 0 20px 0 #d1283e;
+}
+#btn2 {
+  background: skyblue;
+  box-shadow: 0 20px 0 blue;
+}
+#btn3 {
+  background:#99FF33;
+  box-shadow: 0 20px 0 green;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+#btn1:active {
+  box-shadow: 0 10px 0 #d1283e;
+  margin-top: 150px;
+}
+#btn2:active {
+  box-shadow: 0 10px 0  blue;
+  margin-top: 150px;
+}
+#btn3:active {
+  box-shadow: 0 10px 0 green;
+  margin-top: 150px;
+}
