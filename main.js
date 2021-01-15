@@ -55,15 +55,16 @@
   });
   
   const resetBtn = document.getElementById("reset");
-
+  
   resetBtn.addEventListener('click',() => {
-    location.reload(false);
-    // const dog = document.getElementByClassName("fa-dog");
-    // const cat = document.getElementByClassName("fa-cat");
-    // const dove = document.getElementByClassName("fa-dove");
-    // btn1.innerHTML = dog;
-    // btn2.textContent = cat;
-    // btn3.textContent = dove;
+    // console.log('reset!');
+
+    // location.reload(false); //リロード
+    
+    btn1.innerHTML = '<i class="fas fa-dog"></i>';
+    btn2.innerHTML = '<i class="fas fa-cat"></i>';
+    btn3.innerHTML = '<i class="fas fa-dove"></i>';
+  
   });
 
 
